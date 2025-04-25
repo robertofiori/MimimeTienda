@@ -1,0 +1,82 @@
+.product-card {
+  font-family: "Varela Round", sans-serif;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.product-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.product-info span {
+  display: block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.product-info h4 {
+  font-size: 1.1rem;
+  margin: 4px 0;
+  color: #333;
+}
+
+.product-info p {
+  font-size: 1rem;
+  margin: 4px 0;
+  color: #555;
+}
+
+.product-info .old-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.product-info .discount {
+  background-color: #ffcc00;
+  color: #222;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.product-info .new-label {
+  background-color: #ffcc00;
+  color: #222;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-card {
+    max-width: 100%;
+  }
+}

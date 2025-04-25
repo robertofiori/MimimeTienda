@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff8f0;
+}
+
+main {
+  padding: 2rem;
+}
+
+header {
+  background-color: #ffe17b;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #ff6392;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffe17b;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.home-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 3rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  padding: 0.5rem 1rem;
+}
+
+.categories {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #eee;
+  padding: 1rem;
+  width: 150px;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: black;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+}
+
+.image-placeholder {
+  height: 100px;
+  background: #ccc;
+  margin: 1rem 0;
+}
+
+.quote {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.signature-styles {
+  text-align: center;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.product-card {
+  background: #f7f7f7;
+  padding: 1rem;
+  width: 150px;
+}
